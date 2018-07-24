@@ -1,0 +1,89 @@
+body{background-color: yellow;}
+
+h1{
+  color:red;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top:: -10px;
+  /* border-style:solid;
+  border-color:black;
+  border-width: thick;
+  border: 2px solid black;
+    border-radius: 50px 20px; */
+}
+ p{
+  font-size: 50px;
+  text-align:center;
+}
+p.ourstory{
+  font-size: 25px;
+  border-style:solid;
+  border-color:black;
+  border-width: thick;
+}
+.glowingbutton {
+  height:20px;
+  width:100px;
+  margin:-20px -250px;
+  position:relative;
+  top:50%;
+  left:50%;
+  background-color: red;
+  -webkit-border-radius: 10px;
+  border-radius: 50px;
+  color: black;
+  font-family: Arial;
+  font-size: 35px;
+  padding: 10px 20px;
+  animation: glowing 1500ms infinite;
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+ }
+ h2{
+   color:red;
+   font-size: 100px;
+   text-align: center;
+   position: relative;
+   top:: -10px;
+   border-style:solid;
+   border-color:black;
+   border-width: thick;
+   border: 2px solid black;
+     border-radius: 50px 20px;
+}
+#torta{
+  padding-left: 60px;
+  padding-right: 300px;
+  padding-bottom: 60px;
+}
+#nachos2{
+  padding-bottom: 60px;
+}
+#tacos2{
+  padding-bottom: 60px;
+  padding-right: 10px:
+  padding-left: 10px;
+}
+#tacos3{
+  padding-bottom: 60px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+#tacos4{
+  padding-bottom: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#burritos{
+  padding-left: 60px;
+  padding-right: 300px;
+  padding-bottom: 60px;
+}
+#quesadillas{
+  padding-bottom: 60px;
+}
